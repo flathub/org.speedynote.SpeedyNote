@@ -19,7 +19,8 @@ finish-args:
   # Access ~/Documents for notebook storage and PDF files.
   # Other locations are accessible via the file chooser portal.
   - --filesystem=xdg-documents
-
+cleanup:
+  - /include
 modules:
   # =========================================================================
   # MuPDF - PDF rendering and export library
