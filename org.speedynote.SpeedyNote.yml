@@ -1,7 +1,5 @@
 # SpeedyNote Flatpak Manifest
-# Build locally:  flatpak-builder --force-clean build-dir flatpak/org.speedynote.SpeedyNote.yml
-# Install locally: flatpak-builder --user --install --force-clean build-dir flatpak/org.speedynote.SpeedyNote.yml
-# Run:             flatpak run org.speedynote.SpeedyNote
+
 
 app-id: org.speedynote.SpeedyNote
 runtime: org.kde.Platform
