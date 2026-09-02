@@ -87,8 +87,8 @@ modules:
       - -DMUPDF_INCLUDE_DIR=/app/include
     sources:
       - type: archive
-        url: https://github.com/alpha-liu-01/SpeedyNote/archive/refs/tags/v1.6.1.tar.gz
-        sha256: 4bf4583a173fa3570f5a59070bac6f68dbde567d2173c52238a5897dbbff324a
+        url: https://github.com/alpha-liu-01/SpeedyNote/archive/refs/tags/v1.6.2.tar.gz
+        sha256: c41eef7fb57d3497e0c94e2ddc74a717aacc8a999567095d7ce73fc991896ca2
       # --- Vendored ONNX Runtime (CPU EP), per target arch ------------------
       # Extracts onnxruntime-linux-<arch>-1.20.1/{include,lib,...}; strip the
       # top-level dir so it lands at linux/onnxruntime-build/{include,lib}.
